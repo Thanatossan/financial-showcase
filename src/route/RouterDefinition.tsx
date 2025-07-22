@@ -1,5 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import BasicLayout from "../layout/BasicLayout";
+import { DashboardScreen } from "../screen/Dashboard";
+import { OverviewScreen } from "../screen/Overview";
 
 export const RouterDefinition = createBrowserRouter([
     {
@@ -7,9 +9,13 @@ export const RouterDefinition = createBrowserRouter([
         element: <BasicLayout />,
         children: [
             {
-                path: '',
-                element: <div>Home Page</div>
-            }
+                path: '/',
+                element: <OverviewScreen />,
+            },
+            {
+                path: '/dashboard',
+                element: <DashboardScreen />,
+            },
         ]
     }
 ])
