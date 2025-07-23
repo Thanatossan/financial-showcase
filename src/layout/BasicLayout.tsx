@@ -1,7 +1,7 @@
 import { AppBar, Box, Toolbar, Typography } from '@mui/material';
 
 import { Outlet } from 'react-router-dom';
-import { Sidebar } from '../component/core/Sidebar';
+import { Sidebar } from '../components/Sidebar';
 
 const BasicLayout = () => {
     return (

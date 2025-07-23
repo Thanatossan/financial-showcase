@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { User } from '../client/model/User';
+import type { User } from '../features/auth/model/User';
 
 export const useUserStore = create((set) => ({
     user: null,

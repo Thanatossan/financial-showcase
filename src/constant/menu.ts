@@ -2,7 +2,7 @@
 import { MdDashboard } from "react-icons/md";
 import { GrTransaction } from "react-icons/gr";
 import { VscOpenPreview } from "react-icons/vsc";
-import type { MenuType } from "../types";
+import type { MenuType } from "../model";
 import { AiOutlineStock } from "react-icons/ai";
 
 
