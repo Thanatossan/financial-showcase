@@ -1,4 +1,4 @@
-export const KPICard = () => {
+export const CardComponent = () => {
     return (
         <div>
             {/* KPI Card content goes here */}
